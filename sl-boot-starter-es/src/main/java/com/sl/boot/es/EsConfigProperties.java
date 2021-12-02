@@ -37,19 +37,19 @@ public class EsConfigProperties {
     /**
      * 默认连接超时时间
      */
-    public int                         connectTimeout           = 1000;
+    private int connectTimeout = 1000;
     /**
      * 默认Socket 连接超时时间
      */
-    public int                         socketTimeout            = 2000;
+    private int socketTimeout = 2000;
     /**
      * 默认获取连接的超时时间
      */
-    public int                         connectionRequestTimeout = 1000;
+    private int connectionRequestTimeout = 1000;
     /**
      * 默认最大路由连接数
      */
-    public int                         maxConnPerRoute          = 100;
+    private int maxConnPerRoute = 100;
     /**
      * 默认最大连接数
      */

@@ -5,7 +5,7 @@
     <parent>
         <!-- parent可以是公司级parent-->
         <artifactId>sl-boot</artifactId>
-        <groupId>org.sl</groupId>
+        <groupId>com.sl</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -18,11 +18,11 @@
         <dependencies>
             <dependency>
                 <artifactId>sl-boot-starter-redis</artifactId>
-                <groupId>org.sl</groupId>
+                <groupId>com.sl</groupId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
-                <groupId>org.sl</groupId>
+                <groupId>com.sl</groupId>
                 <artifactId>sl-boot-starter-es</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
