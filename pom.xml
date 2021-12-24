@@ -13,7 +13,8 @@
         <module>sl-boot-starter-redis</module>
         <module>sl-boot-parent</module>
         <module>sl-boot-starter-es</module>
-        <module>sl-boot-starter-bucket-experiment</module>
+        <module>sl-boot-starter-ab</module>
+        <module>sl-boot-starter-logging</module>
     </modules>
 
     <build>
